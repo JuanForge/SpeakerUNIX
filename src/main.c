@@ -5,7 +5,7 @@
 #define PIT_CONTROL   0x43
 #define PIT_CHANNEL2  0x42
 #define SPEAKER_CTRL  0x61
-#define PIT_FREQ      1193182  // 1.193182 MHz
+#define PIT_FREQ      1193182  // 1.193182 MHz test
 
 void beep(int frequency, int duration_ms) {
     if (frequency <= 0 || duration_ms <= 0) return;
